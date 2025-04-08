@@ -1,8 +1,5 @@
 # Ignore environment files
 .env
 
-# Ignore Python cache files
-__pycache__/
 
-# Ignore the .git directory (but this is usually unnecessary)
-.git/
+__pycache__/
