@@ -2,6 +2,11 @@
 
 TalentScout Hiring Assistant is an AI-powered technical recruitment tool that automates initial candidate screening through intelligent conversation, technical assessment, and comprehensive evaluation.
 
+## 🔥 Demo
+
+- Live Demo: [Click Here](https://talentscout-chatbot.onrender.com)
+- Explaner Video: [Watch in Loom](https://www.loom.com/share/0064d9cfb80b4886978cabd174246c19?sid=0d21e9cd-8ff0-41ec-a63d-45175cd80652)
+
 ## 🚀 Features
 
 - **Conversational Interface**: Natural dialogue-based candidate screening
@@ -13,15 +18,18 @@ TalentScout Hiring Assistant is an AI-powered technical recruitment tool that au
 
 ## 📋 Prerequisites
 
-- Python 3.7+
-- Google Gemini API key
+- streamlit>=1.22.0
+- google-generativeai>=0.3.0
+- python-dotenv>=1.0.0
+- pandas>=1.3.5
+- reportlab>=3.6.12
 
 ## 🔧 Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/talentscout-hiring-assistant.git
-   cd talentscout-hiring-assistant
+   git clone https://github.com/prantikm07/TalentScout-Chatbot.git
+   cd TalentScout-Chatbot
    ```
 
 2. Create a virtual environment:
@@ -69,13 +77,6 @@ TalentScout Hiring Assistant is an AI-powered technical recruitment tool that au
 3. See sentiment analysis and AI-generated grades
 4. Generate and download PDF reports with candidate details
 
-## 🔒 Security Notes
-
-This application stores candidate data in session state. For production use, consider implementing:
-- Secure database storage
-- Enhanced authentication
-- Data encryption
-- Privacy compliance measures
 
 ## 🤝 Contributing
 
@@ -93,8 +94,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📧 Contact
 
-For questions or support, please contact [your.email@example.com](mailto:your.email@example.com).
-
-## 🔥 Demo
-
-![TalentScout Demo](demo_screenshot.png)
+If you have any questions, feel free to contact me via:
+- Email: [prantik25m@gmail.com](mailto:prantik25m@gmail.com)
+- LinkedIn: [Prantik Mukhopadhyay](https://www.linkedin.com/in/prantikm07/)
